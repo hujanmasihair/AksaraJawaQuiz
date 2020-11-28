@@ -1,0 +1,622 @@
+fileFormatVersion: 2
+guid: 09e3fc796a9dffc4f84deed06fafeb95
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2995662355635016547
+    second: aksara_lvl_1_0
+  - first:
+      213: -7208462914183539890
+    second: aksara_lvl_1_1
+  - first:
+      213: -1201772931699252722
+    second: aksara_lvl_1_2
+  - first:
+      213: 4466303685769194068
+    second: aksara_lvl_1_3
+  - first:
+      213: 2137182410929416742
+    second: aksara_lvl_1_4
+  - first:
+      213: -7437688839911021647
+    second: aksara_lvl_1_5
+  - first:
+      213: -1352484351045114402
+    second: aksara_lvl_1_6
+  - first:
+      213: 7422613408042339283
+    second: aksara_lvl_1_7
+  - first:
+      213: -631765754378637923
+    second: aksara_lvl_1_8
+  - first:
+      213: 6394576715364104154
+    second: aksara_lvl_1_9
+  - first:
+      213: 6007839485837401411
+    second: aksara_lvl_1_10
+  - first:
+      213: 6051822244257706799
+    second: aksara_lvl_1_11
+  - first:
+      213: -1122288127914438060
+    second: aksara_lvl_1_12
+  - first:
+      213: -124402715821693150
+    second: aksara_lvl_1_13
+  - first:
+      213: -4039986636871927291
+    second: aksara_lvl_1_14
+  - first:
+      213: -6012317529546950709
+    second: aksara_lvl_1_15
+  - first:
+      213: 572366149934649035
+    second: aksara_lvl_1_16
+  - first:
+      213: -6029713601143642993
+    second: aksara_lvl_1_17
+  - first:
+      213: 6894737127596888918
+    second: aksara_lvl_1_18
+  - first:
+      213: -430867037080818174
+    second: aksara_lvl_1_19
+  - first:
+      213: -6503704696914967914
+    second: aksara_lvl_1_20
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: aksara_lvl_1_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 330
+        width: 4575
+        height: 2291
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36392ae6a0bb29920800000000000000
+      internalID: 2995662355635016547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aksara_lvl_1_1
+      rect:
+        serializedVersion: 2
+        x: 5021
+        y: 2372
+        width: 1852
+        height: 821
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e43538feb2566fb90800000000000000
+      internalID: -7208462914183539890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aksara_lvl_1_2
+      rect:
+        serializedVersion: 2
+        x: 7039
+        y: 2496
+        width: 159
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e02e269c2e1725fe0800000000000000
+      internalID: -1201772931699252722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aksara_lvl_1_3
+      rect:
+        serializedVersion: 2
+        x: 7362
+        y: 2472
+        width: 209
+        height: 131
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45a6a49e98f7bfd30800000000000000
+      internalID: 4466303685769194068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aksara_lvl_1_4
+      rect:
+        serializedVersion: 2
+        x: 7963
+        y: 2391
+        width: 424
+        height: 146
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62a29a7541cc8ad10800000000000000
+      internalID: 2137182410929416742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aksara_lvl_1_5
+      rect:
+        serializedVersion: 2
+        x: 7962
+        y: 2389
+        width: 189
+        height: 145
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b3673b186508c890800000000000000
+      internalID: -7437688839911021647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aksara_lvl_1_6
+      rect:
+        serializedVersion: 2
+        x: 8956
+        y: 2342
+        width: 371
+        height: 279
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed56ea306a20b3de0800000000000000
+      internalID: -1352484351045114402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aksara_lvl_1_7
+      rect:
+        serializedVersion: 2
+        x: 5408
+        y: 1642
+        width: 1093
+        height: 483
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3db4a63619b620760800000000000000
+      internalID: 7422613408042339283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aksara_lvl_1_8
+      rect:
+        serializedVersion: 2
+        x: 7070
+        y: 2075
+        width: 146
+        height: 209
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9d2105c4648b37f0800000000000000
+      internalID: -631765754378637923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aksara_lvl_1_9
+      rect:
+        serializedVersion: 2
+        x: 7999
+        y: 1833
+        width: 283
+        height: 287
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad7f24884a91eb850800000000000000
+      internalID: 6394576715364104154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aksara_lvl_1_10
+      rect:
+        serializedVersion: 2
+        x: 6811
+        y: 1410
+        width: 879
+        height: 559
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34d57e47e22206350800000000000000
+      internalID: 6007839485837401411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aksara_lvl_1_11
+      rect:
+        serializedVersion: 2
+        x: 8000
+        y: 1259
+        width: 391
+        height: 474
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f23b9c864446cf350800000000000000
+      internalID: 6051822244257706799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aksara_lvl_1_12
+      rect:
+        serializedVersion: 2
+        x: 5590
+        y: 881
+        width: 824
+        height: 406
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4529500d4e4dc60f0800000000000000
+      internalID: -1122288127914438060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aksara_lvl_1_13
+      rect:
+        serializedVersion: 2
+        x: 6797
+        y: 667
+        width: 879
+        height: 556
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 227aa5a9368064ef0800000000000000
+      internalID: -124402715821693150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aksara_lvl_1_14
+      rect:
+        serializedVersion: 2
+        x: 8077
+        y: 804
+        width: 255
+        height: 328
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50a7cebfe851fe7c0800000000000000
+      internalID: -4039986636871927291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aksara_lvl_1_15
+      rect:
+        serializedVersion: 2
+        x: 5021
+        y: 0
+        width: 1849
+        height: 640
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc7ff7ebf05ff8ca0800000000000000
+      internalID: -6012317529546950709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aksara_lvl_1_16
+      rect:
+        serializedVersion: 2
+        x: 6975
+        y: 0
+        width: 778
+        height: 540
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bce00581bf371f700800000000000000
+      internalID: 572366149934649035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aksara_lvl_1_17
+      rect:
+        serializedVersion: 2
+        x: 8925
+        y: 1787
+        width: 365
+        height: 452
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f84ed723d67225ca0800000000000000
+      internalID: -6029713601143642993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aksara_lvl_1_18
+      rect:
+        serializedVersion: 2
+        x: 8920
+        y: 1036
+        width: 321
+        height: 631
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6531c1e33e60faf50800000000000000
+      internalID: 6894737127596888918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aksara_lvl_1_19
+      rect:
+        serializedVersion: 2
+        x: 7034
+        y: 2493
+        width: 172
+        height: 113
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20e6f5d66b0450af0800000000000000
+      internalID: -430867037080818174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aksara_lvl_1_20
+      rect:
+        serializedVersion: 2
+        x: 7357
+        y: 2464
+        width: 227
+        height: 147
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 692085849033eb5a0800000000000000
+      internalID: -6503704696914967914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

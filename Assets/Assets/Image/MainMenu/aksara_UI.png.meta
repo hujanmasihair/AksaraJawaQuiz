@@ -1,0 +1,886 @@
+fileFormatVersion: 2
+guid: 17140656e5115e74e9d94ae839d2e0f2
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5777188769289739152
+    second: aksara_UI_0
+  - first:
+      213: 1460814747993156985
+    second: aksara_UI_1
+  - first:
+      213: 8353495163729396
+    second: aksara_UI_2
+  - first:
+      213: 7775773591156434246
+    second: aksara_UI_3
+  - first:
+      213: 4225933832148822069
+    second: aksara_UI_4
+  - first:
+      213: -5426484596505077751
+    second: aksara_UI_5
+  - first:
+      213: -5750384795974546118
+    second: aksara_UI_6
+  - first:
+      213: -7495664361448222605
+    second: aksara_UI_7
+  - first:
+      213: -8528260598298194134
+    second: aksara_UI_8
+  - first:
+      213: 4011156862744017086
+    second: aksara_UI_9
+  - first:
+      213: 2446703116592836275
+    second: aksara_UI_10
+  - first:
+      213: -6811185045979090842
+    second: aksara_UI_11
+  - first:
+      213: 5152044511297101857
+    second: aksara_UI_12
+  - first:
+      213: -7345452144271830229
+    second: aksara_UI_13
+  - first:
+      213: 1680646291972077101
+    second: aksara_UI_14
+  - first:
+      213: -8341810220026086570
+    second: aksara_UI_15
+  - first:
+      213: 5068082614579324014
+    second: aksara_UI_16
+  - first:
+      213: -4434216020508889421
+    second: aksara_UI_17
+  - first:
+      213: -7642618711515209275
+    second: aksara_UI_18
+  - first:
+      213: 5762692932587032172
+    second: aksara_UI_19
+  - first:
+      213: -6723991803379614823
+    second: aksara_UI_20
+  - first:
+      213: -2249865948158428301
+    second: aksara_UI_21
+  - first:
+      213: -6517453672710307009
+    second: aksara_UI_22
+  - first:
+      213: 8083913119743850014
+    second: aksara_UI_23
+  - first:
+      213: -1429973372424057428
+    second: aksara_UI_24
+  - first:
+      213: -6999267677205311168
+    second: aksara_UI_25
+  - first:
+      213: 1077548650835696547
+    second: aksara_UI_26
+  - first:
+      213: 5563815922602845752
+    second: aksara_UI_27
+  - first:
+      213: -3161732253006186373
+    second: aksara_UI_28
+  - first:
+      213: -6479308378632975947
+    second: aksara_UI_29
+  - first:
+      213: 60308709721441558
+    second: aksara_UI_30
+  - first:
+      213: 5842172654593093413
+    second: aksara_UI_31
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: aksara_UI_0
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 450
+        width: 512
+        height: 445
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09b14e9a392bc2050800000000000000
+      internalID: 5777188769289739152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aksara_UI_1
+      rect:
+        serializedVersion: 2
+        x: 777
+        y: 450
+        width: 511
+        height: 445
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97da8c8064bd54410800000000000000
+      internalID: 1460814747993156985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aksara_UI_2
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 297
+        width: 84
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f5fdd7a57dad1000800000000000000
+      internalID: 8353495163729396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aksara_UI_3
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 297
+        width: 84
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6452eb222e819eb60800000000000000
+      internalID: 7775773591156434246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aksara_UI_4
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 297
+        width: 84
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 538298d2e6885aa30800000000000000
+      internalID: 4225933832148822069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aksara_UI_5
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 297
+        width: 85
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9089f2e920141b4b0800000000000000
+      internalID: -5426484596505077751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aksara_UI_6
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 297
+        width: 84
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3d4122be778230b0800000000000000
+      internalID: -5750384795974546118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aksara_UI_7
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 311
+        width: 177
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 370d25c1afc0af790800000000000000
+      internalID: -7495664361448222605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aksara_UI_8
+      rect:
+        serializedVersion: 2
+        x: 890
+        y: 311
+        width: 176
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2fc976ab2885a980800000000000000
+      internalID: -8528260598298194134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aksara_UI_9
+      rect:
+        serializedVersion: 2
+        x: 1138
+        y: 311
+        width: 177
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb83a362aed7aa730800000000000000
+      internalID: 4011156862744017086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aksara_UI_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 84
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3be6b57758f64f120800000000000000
+      internalID: 2446703116592836275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aksara_UI_11
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 192
+        width: 84
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 660b6f2b94fc971a0800000000000000
+      internalID: -6811185045979090842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aksara_UI_12
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 192
+        width: 84
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1206dd2bf2dbf7740800000000000000
+      internalID: 5152044511297101857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aksara_UI_13
+      rect:
+        serializedVersion: 2
+        x: 374
+        y: 192
+        width: 85
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b23db025136bf0a90800000000000000
+      internalID: -7345452144271830229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aksara_UI_14
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 192
+        width: 84
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d26b21ae5ead25710800000000000000
+      internalID: 1680646291972077101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aksara_UI_15
+      rect:
+        serializedVersion: 2
+        x: 633
+        y: 204
+        width: 179
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65b3f9b3dcfeb3c80800000000000000
+      internalID: -8341810220026086570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aksara_UI_16
+      rect:
+        serializedVersion: 2
+        x: 890
+        y: 204
+        width: 179
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e64655e3942755640800000000000000
+      internalID: 5068082614579324014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aksara_UI_17
+      rect:
+        serializedVersion: 2
+        x: 1131
+        y: 204
+        width: 179
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bea838d5008672c0800000000000000
+      internalID: -4434216020508889421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aksara_UI_18
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 111
+        width: 66
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c1e16236c6ffe590800000000000000
+      internalID: -7642618711515209275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aksara_UI_19
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 111
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6e018ca0b239ff40800000000000000
+      internalID: 5762692932587032172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aksara_UI_20
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 111
+        width: 66
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99b7bee74159fa2a0800000000000000
+      internalID: -6723991803379614823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aksara_UI_21
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 111
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37bf4c727ded6c0e0800000000000000
+      internalID: -2249865948158428301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aksara_UI_22
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 111
+        width: 66
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3389066a6a5d85a0800000000000000
+      internalID: -6517453672710307009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aksara_UI_23
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 111
+        width: 66
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e16b379e624df2070800000000000000
+      internalID: 8083913119743850014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aksara_UI_24
+      rect:
+        serializedVersion: 2
+        x: 742
+        y: 111
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cad856a4bc6b72ce0800000000000000
+      internalID: -1429973372424057428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aksara_UI_25
+      rect:
+        serializedVersion: 2
+        x: 862
+        y: 111
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 041dd4c912b9dde90800000000000000
+      internalID: -6999267677205311168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aksara_UI_26
+      rect:
+        serializedVersion: 2
+        x: 985
+        y: 111
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ab5341f9c834fe00800000000000000
+      internalID: 1077548650835696547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aksara_UI_27
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 0
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 836a76e6a15a63d40800000000000000
+      internalID: 5563815922602845752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aksara_UI_28
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 0
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b78bba874454f14d0800000000000000
+      internalID: -3161732253006186373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aksara_UI_29
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 0
+        width: 65
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b98e55cb5fd416a0800000000000000
+      internalID: -6479308378632975947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aksara_UI_30
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 0
+        width: 65
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6150fc3b37246d000800000000000000
+      internalID: 60308709721441558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: aksara_UI_31
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 0
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52fa5818311931150800000000000000
+      internalID: 5842172654593093413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

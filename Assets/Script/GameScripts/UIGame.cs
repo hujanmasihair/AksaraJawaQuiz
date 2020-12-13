@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
-public class UIGame : MonoBehaviour
+public class UIGame : MonoBehaviour         // Script pada Control UI saat bermain
 {
     public GameObject panelPepak, panelExit, panelKalah;
     public Toggle tgSound;
@@ -12,8 +12,8 @@ public class UIGame : MonoBehaviour
 
     public int poinNow;
 
-    [SerializeField]
-    int nextSceneIndex = SceneManager.GetActiveScene().buildIndex + 1;
+    //[SerializeField]
+    //int nextSceneIndex = SceneManager.GetActiveScene().buildIndex + 1;
 
     // Start is called before the first frame update
     void Start()
@@ -83,6 +83,6 @@ public class UIGame : MonoBehaviour
 
     public void Lanjut()
     {
-        SceneManager.LoadScene(nextSceneIndex);
+        //SceneManager.LoadScene(nextSceneIndex);
     }
 }

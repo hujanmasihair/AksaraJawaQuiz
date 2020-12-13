@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class MoveSystem : MonoBehaviour
+public class MoveSystem : MonoBehaviour         //Script Tipe Drag n Drop
 {
     public GameObject correctPlace;
     private bool pindah, finish;
@@ -24,7 +24,7 @@ public class MoveSystem : MonoBehaviour
         //menentukan posisi awal objek guna reset posisi nantinya
         resetPosition = this.transform.localPosition;
 
-        GameObject QMng = GameObject.Find("Text");
+        GameObject QMng = GameObject.Find("QuizText");
         QuizManager noSoal_ = QMng.GetComponent<QuizManager>();
         noSoal_.noSoal = 1;
 
@@ -72,7 +72,7 @@ public class MoveSystem : MonoBehaviour
 
         //ketika objek dilepas
         pindah = false;
-        GameObject QMng = GameObject.Find("Text");
+        GameObject QMng = GameObject.Find("QuizText");
         QuizManager noSoal_ = QMng.GetComponent<QuizManager>();
 
         //menyesuaikan posisi 
@@ -84,7 +84,6 @@ public class MoveSystem : MonoBehaviour
             finish = true;
 
             //GameObject.Find("PointHandler").GetComponent<Berhasil>().tambahPoin();
-
             this.GetComponent<Collider2D>().enabled = false;
             callQMng();
         }
@@ -97,7 +96,7 @@ public class MoveSystem : MonoBehaviour
 
     private void callQMng()
     {
-        GameObject QMng = GameObject.Find("Text");
+        GameObject QMng = GameObject.Find("QuizText");
         QuizManager noSoal_ = QMng.GetComponent<QuizManager>();
         noSoal_.noSoal++;
 

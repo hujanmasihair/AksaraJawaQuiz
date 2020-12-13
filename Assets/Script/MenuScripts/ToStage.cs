@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class ToStage : MonoBehaviour
+public class ToStage : MonoBehaviour        //Script Pemilihan Level
 {
     //ke Scene 
     public void toMenu()

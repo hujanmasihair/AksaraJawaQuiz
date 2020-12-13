@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class Swipe : MonoBehaviour
+public class Swipe : MonoBehaviour          //Script Swipe Pada Pepak
 {
 
     public GameObject scrollbar;

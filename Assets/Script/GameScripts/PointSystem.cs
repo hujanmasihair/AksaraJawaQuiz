@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class PointSystem : MonoBehaviour
+public class PointSystem : MonoBehaviour        //Script Point (pengurangan saat membuka pepak)
 {
     public Text jmlPoin, poinSt;
     public UIGame uiGame;

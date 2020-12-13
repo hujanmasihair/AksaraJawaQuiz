@@ -5,31 +5,30 @@ using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
 
-public class QuizManager : MonoBehaviour
+public class QuizManager : MonoBehaviour        //Script Menampilkan Soal Secara Urut pada semua level
 {
     public int noSoal;
     Text soal;
 
-    public string jawa;
-    public Font hanacarakaFont;
+    //int nextSceneIndex = SceneManager.GetActiveScene().buildIndex + 1;
 
-    public Text yourText;
-
-    public GameObject panelMenang;
+    public GameObject panelIntro, panelMenang, btnNext;
+    public GameObject q1, q2, q3, q4, q5;
 
     void Start()
     {
-        //label.GetComponent<Text>().font = hanacarakaFont;
         soal = GetComponent<Text>();
-        //jawa.font = hanacarakaFont;
-
-        //To load it:
-        //Font font = Resources.Load("Fonts/Hanacaraka.ttf") as Font;
-
         panelMenang.gameObject.SetActive(false);
 
-        //To assign it to the Text component:
-        //yourText.font = font;
+        //Menampilkan Intro
+        panelIntro.gameObject.SetActive(true);
+
+        //menampilkan soal mana yang ditampilkan / tidak
+        q1.gameObject.SetActive(true);
+        q2.gameObject.SetActive(false);
+        q3.gameObject.SetActive(false);
+        q4.gameObject.SetActive(false);
+        q5.gameObject.SetActive(false);
     }
 
     void Update()
@@ -40,81 +39,73 @@ public class QuizManager : MonoBehaviour
         // Retrieve the name of this scene.
         string sceneName = currentScene.name;
 
-        if(sceneName == "Stage1Kelas")
+
+        if (noSoal == 1)
         {
-            if (noSoal == 1)
-            {
-                soal.text = "Masukan Buku Kedalam Tas " + yourText;
-            }
-
-            else if (noSoal == 2)
-            {
-                soal.text = "Buang remasan kertas kedalam tempat sampah";
-            }
-
-            else if (noSoal == 3)
-            {
-                soal.text = "Masukkan penggaris kedalam kotak pensil";
-            }
-
-            else if (noSoal == 4)
-            {
-                soal.text = "Taruh Globe ke meja kiri";
-            }
-
-            else if (noSoal == 5)
-            {
-                soal.text = "Pasang Jam di tembok diatas Tanaman";
-            }
-
-            else
-            {
-                //Debug.Log("Menang");
-            }
+            q1.gameObject.SetActive(true);
+            q2.gameObject.SetActive(false);
+            q3.gameObject.SetActive(false);
+            q4.gameObject.SetActive(false);
+            q5.gameObject.SetActive(false);
         }
 
-        if (sceneName == "Stage2Kamar")
+        else if (noSoal == 2)
         {
-            if (noSoal == 1)
-            {
-                soal.text = "Buang Kertas ke Tempat Sampah";
-                Debug.Log(soal.text);
-            }
-
-            else if (noSoal == 2)
-            {
-                soal.text = "Buang remasan kertas kedalam tempat sampah";
-            }
-
-            else if (noSoal == 3)
-            {
-                soal.text = "Masukkan penggaris kedalam kotak pensil";
-            }
-
-            else if (noSoal == 4)
-            {
-                soal.text = "Taruh Globe ke meja kiri";
-            }
-
-            else if (noSoal == 5)
-            {
-                soal.text = "Pasang Jam di tembok diatas Tanaman";
-            }
-
-            else if (noSoal == 6)
-            {
-                Debug.Log("Menang");
-                SceneManager.LoadScene("MainMenu", LoadSceneMode.Single);
-            }
+            q1.gameObject.SetActive(false);
+            q2.gameObject.SetActive(true);
+            q3.gameObject.SetActive(false);
+            q4.gameObject.SetActive(false);
+            q5.gameObject.SetActive(false);
         }
 
-        if (noSoal == 6)
+        else if (noSoal == 3)
         {
-            panelMenang.gameObject.SetActive(true);
+            q1.gameObject.SetActive(false);
+            q2.gameObject.SetActive(false);
+            q3.gameObject.SetActive(true);
+            q4.gameObject.SetActive(false);
+            q5.gameObject.SetActive(false);
+        }
 
+        else if (noSoal == 4)
+        {
+            q1.gameObject.SetActive(false);
+            q2.gameObject.SetActive(false);
+            q3.gameObject.SetActive(false);
+            q4.gameObject.SetActive(true);
+            q5.gameObject.SetActive(false);
+        }
+
+        else if (noSoal == 5)
+        {
+            q1.gameObject.SetActive(false);
+            q2.gameObject.SetActive(false);
+            q3.gameObject.SetActive(false);
+            q4.gameObject.SetActive(false);
+            q5.gameObject.SetActive(true);
+        }
+
+        else if (noSoal >= 6)
+        {
             Debug.Log("Menang");
+            //SceneManager.LoadScene("MainMenu", LoadSceneMode.Single);
+            q1.gameObject.SetActive(false);
+            q2.gameObject.SetActive(false);
+            q3.gameObject.SetActive(false);
+            q4.gameObject.SetActive(false);
+            q5.gameObject.SetActive(false);
+
+            int nextSceneIndex = SceneManager.GetActiveScene().buildIndex + 1;
+            if (SceneManager.sceneCountInBuildSettings > nextSceneIndex)
+            {
+                SceneManager.LoadScene(nextSceneIndex);
+            }
         }
+    }
 
-
+    public void masukQuiz()
+    {
+        panelIntro.gameObject.SetActive(false);
+        btnNext.gameObject.SetActive(false);
     }
 }

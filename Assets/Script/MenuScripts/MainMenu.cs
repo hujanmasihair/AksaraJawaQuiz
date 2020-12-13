@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
-public class MainMenu : MonoBehaviour
+public class MainMenu : MonoBehaviour       //Script pada Control MainMenu
 {
     public GameObject UIMenu, UIStage, UISetting, UIPepak;
     public Toggle tgSound;
@@ -29,7 +29,7 @@ public class MainMenu : MonoBehaviour
 
     public void toPlay2()
     {
-        SceneManager.LoadScene("Stage1Kelas", LoadSceneMode.Single);
+        SceneManager.LoadScene("NewStage1Kelas", LoadSceneMode.Single);
     }
 
     //menonaktifkan semua UI kecuali Pengaturan

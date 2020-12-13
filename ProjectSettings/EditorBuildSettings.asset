@@ -9,18 +9,12 @@ EditorBuildSettings:
     path: Assets/Scenes/MainMenu.unity
     guid: 22ac5f0d514c51b4faa593dee2c9c2a0
   - enabled: 1
-    path: Assets/Scenes/Stage1Kelas.unity
-    guid: 14fa41648a1dc62438dd1f822a95d2f2
-  - enabled: 0
-    path: Assets/Scenes/Stage2Kamar.unity
-    guid: f47c4afe588a6d444b7b3521ca232766
-  - enabled: 0
-    path: Assets/Scenes/Stage3Jalanan.unity
-    guid: d73f7dd123a61484a8c6fb2d756efc5f
-  - enabled: 0
-    path: Assets/Scenes/UIOnGame.unity
-    guid: 8e4656aff9a23e34bac7d48a471c3ea0
-  - enabled: 0
-    path: Assets/Scenes/SampleScene.unity
-    guid: 9fc0d4010bbf28b4594072e72b8655ab
+    path: Assets/Scenes/NewStage1Kelas.unity
+    guid: 93a39f195f13b13488030abbfcc008c1
+  - enabled: 1
+    path: Assets/Scenes/NewStage2Kamar.unity
+    guid: 70579ecd8f3f9d24bb270dfe91e0f86f
+  - enabled: 1
+    path: Assets/Scenes/NewStage3Museum.unity
+    guid: 400864d7ada5c224eb6391837d6d5edc
   m_configObjects: {}

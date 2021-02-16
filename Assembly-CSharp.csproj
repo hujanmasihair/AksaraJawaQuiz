@@ -64,19 +64,21 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Script\GameScripts\AudioJawaban.cs" />
     <Compile Include="Assets\Script\GameScripts\Berhasil.cs" />
     <Compile Include="Assets\Script\GameScripts\MoveSystem.cs" />
+    <Compile Include="Assets\Script\GameScripts\PoinAkhir.cs" />
+    <Compile Include="Assets\Script\GameScripts\PoinFixed.cs" />
     <Compile Include="Assets\Script\GameScripts\PointSystem.cs" />
     <Compile Include="Assets\Script\GameScripts\QuizManager.cs" />
-    <Compile Include="Assets\Script\GameScripts\SoalManager.cs" />
     <Compile Include="Assets\Script\GameScripts\Swipe.cs" />
     <Compile Include="Assets\Script\GameScripts\TapEffect.cs" />
     <Compile Include="Assets\Script\GameScripts\TapEffect3.cs" />
     <Compile Include="Assets\Script\GameScripts\TapSystem.cs" />
     <Compile Include="Assets\Script\GameScripts\UIGame.cs" />
+    <Compile Include="Assets\Script\MenuScripts\DontDestroyEnd.cs" />
     <Compile Include="Assets\Script\MenuScripts\MainMenu.cs" />
     <Compile Include="Assets\Script\MenuScripts\ToStage.cs" />
-    <Compile Include="Assets\Script\NewBehaviourScriptz.cs" />
     <Reference Include="UnityEngine">
       <HintPath>D:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>

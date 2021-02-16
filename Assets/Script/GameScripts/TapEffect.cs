@@ -22,6 +22,10 @@ public class TapEffect : MonoBehaviour      //Script Level2
     public GameObject jendelaBuka;
     public GameObject jendelaTutup;
 
+    [Header("Audio Salah Benar")]
+    public AudioSource benarJwb;
+    public AudioSource salahJwb;
+
     void Update()
     {
 
@@ -46,6 +50,7 @@ public class TapEffect : MonoBehaviour      //Script Level2
                 allID();
             }
 
+
             //Buka Lemari Untuk Ganti Baju
             if (idDown == 2 && noSoal_.noSoal == 2)
             {
@@ -55,9 +60,11 @@ public class TapEffect : MonoBehaviour      //Script Level2
                 charBebas.SetActive(true);
 
                 idDown = 0;
+                benarJwb.Play();
 
                 StartCoroutine(LemariNutup());
             }
+
 
             IEnumerator LemariNutup()
             {
@@ -69,8 +76,9 @@ public class TapEffect : MonoBehaviour      //Script Level2
                 noSoal_.noSoal = 3;
             }
 
+
             //Tutup Jendela Kamar
-            if (idDown == 3)
+            if (idDown == 3 && noSoal_.noSoal == 3)
             {
                 jendelaTutup.SetActive(true);
                 jendelaBuka.SetActive(false);
@@ -91,7 +99,6 @@ public class TapEffect : MonoBehaviour      //Script Level2
                 saklarDown.SetActive(false);
 
                 lightObjek.GetComponent<SpriteRenderer>().enabled = true;
-                Debug.Log("soal1 Berhasil");
 
                 allID();
             }
@@ -100,13 +107,11 @@ public class TapEffect : MonoBehaviour      //Script Level2
 
     public void allID()
     {
-
         GameObject QMng = GameObject.Find("QuizText");
         QuizManager noSoal_ = QMng.GetComponent<QuizManager>();
         noSoal_.noSoal += 0;
 
         idDown = 0;
         noSoal_.noSoal += 1;
-
     }
 }

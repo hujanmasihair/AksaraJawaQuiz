@@ -21,7 +21,6 @@ public class Berhasil : MonoBehaviour
         if(poinSekarang >= poinMenang)
         {
             transform.GetChild(0).gameObject.SetActive(true);
-
         }
     }
 

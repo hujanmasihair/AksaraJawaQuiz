@@ -9,7 +9,6 @@ public class QuizManager : MonoBehaviour        //Script Menampilkan Soal Secara
 {
     public int noSoal;
     Text soal;
-
     //int nextSceneIndex = SceneManager.GetActiveScene().buildIndex + 1;
 
     public GameObject panelIntro, panelMenang, btnNext;
@@ -29,6 +28,12 @@ public class QuizManager : MonoBehaviour        //Script Menampilkan Soal Secara
         q3.gameObject.SetActive(false);
         q4.gameObject.SetActive(false);
         q5.gameObject.SetActive(false);
+
+
+        GameObject QMng = GameObject.Find("QuizText");
+        QuizManager noSoal_ = QMng.GetComponent<QuizManager>();
+
+        noSoal_.noSoal = 0;
     }
 
     void Update()
@@ -95,11 +100,19 @@ public class QuizManager : MonoBehaviour        //Script Menampilkan Soal Secara
             q4.gameObject.SetActive(false);
             q5.gameObject.SetActive(false);
 
-            int nextSceneIndex = SceneManager.GetActiveScene().buildIndex + 1;
-            if (SceneManager.sceneCountInBuildSettings > nextSceneIndex)
-            {
-                SceneManager.LoadScene(nextSceneIndex);
-            }
+            StartCoroutine(lanjutScene());
+
+        }
+    }
+
+    IEnumerator lanjutScene()
+    {
+        yield return new WaitForSeconds(1f);
+
+        int nextSceneIndex = SceneManager.GetActiveScene().buildIndex + 1;
+        if (SceneManager.sceneCountInBuildSettings > nextSceneIndex)
+        {
+            SceneManager.LoadScene(nextSceneIndex);
         }
     }
 
@@ -107,5 +120,32 @@ public class QuizManager : MonoBehaviour        //Script Menampilkan Soal Secara
     {
         panelIntro.gameObject.SetActive(false);
         btnNext.gameObject.SetActive(false);
+
+        GameObject QMng = GameObject.Find("QuizText");
+        QuizManager noSoal_ = QMng.GetComponent<QuizManager>();
+
+        noSoal_.noSoal = 1;
+        //Debug.Log("aa" + noSoal_.noSoal);
+    }
+    
+    public void masukQuizLv3()
+    {
+        panelIntro.gameObject.SetActive(false);
+        btnNext.gameObject.SetActive(false);
+
+        GameObject QMng = GameObject.Find("QuizText");
+        QuizManager noSoal_ = QMng.GetComponent<QuizManager>();
+
+        noSoal_.noSoal = 0;
+
+        GameObject setAudio = GameObject.Find("SetAudio");
+        AudioJawaban other = (AudioJawaban)setAudio.GetComponent(typeof(AudioJawaban));
+
+        other.muteWrongAudio();
+
+        GameObject poinS = GameObject.Find("PoinFixed");
+        PoinFixed playerPoin = poinS.GetComponent<PoinFixed>();
+        playerPoin.poinz += 20;
+        //Debug.Log("aa" + noSoal_.noSoal);
     }
 }

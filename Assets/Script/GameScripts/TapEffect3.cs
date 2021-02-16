@@ -19,6 +19,9 @@ public class TapEffect3 : MonoBehaviour         //Script Level 3
 
         noSoal_.noSoal += 0;
 
+        Debug.Log("soal skg = " + noSoal_.noSoal);
+
+
         if (sceneName == "NewStage3Museum")
         {
 
@@ -79,13 +82,11 @@ public class TapEffect3 : MonoBehaviour         //Script Level 3
 
     public void allID()
     {
-
         GameObject QMng = GameObject.Find("QuizText");
         QuizManager noSoal_ = QMng.GetComponent<QuizManager>();
         noSoal_.noSoal += 0;
 
         idDown = 0;
         noSoal_.noSoal += 1;
-
     }
 }

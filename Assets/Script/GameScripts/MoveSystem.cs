@@ -8,6 +8,8 @@ public class MoveSystem : MonoBehaviour         //Script Tipe Drag n Drop
     public GameObject correctPlace;
     private bool pindah, finish;
 
+    public QuizManager Qmng;
+
     public int idObjek;
     private int idDown;
     //public int noSoal;
@@ -18,6 +20,7 @@ public class MoveSystem : MonoBehaviour         //Script Tipe Drag n Drop
 
     Text soal;
 
+
     // Start is called before the first frame update
     void Start()
     {
@@ -26,10 +29,10 @@ public class MoveSystem : MonoBehaviour         //Script Tipe Drag n Drop
 
         GameObject QMng = GameObject.Find("QuizText");
         QuizManager noSoal_ = QMng.GetComponent<QuizManager>();
-        noSoal_.noSoal = 1;
+        noSoal_.noSoal = 0;
 
         //idObjek = GameObject.Find("1");
-        Debug.Log("noSoal : " + noSoal_.noSoal);
+        //Debug.Log("noSoal : " + noSoal_.noSoal);
     }
 
     // Update is called once per frame
@@ -83,6 +86,10 @@ public class MoveSystem : MonoBehaviour         //Script Tipe Drag n Drop
             this.transform.position = new Vector3(correctPlace.transform.position.x, correctPlace.transform.position.y, correctPlace.transform.position.z);
             finish = true;
 
+            GameObject setAudio = GameObject.Find("SetAudio");
+            AudioJawaban other = (AudioJawaban)setAudio.GetComponent(typeof(AudioJawaban));
+            other.rightAudio();
+
             //GameObject.Find("PointHandler").GetComponent<Berhasil>().tambahPoin();
             this.GetComponent<Collider2D>().enabled = false;
             callQMng();
@@ -91,6 +98,15 @@ public class MoveSystem : MonoBehaviour         //Script Tipe Drag n Drop
         {   
             //mengembalikan keposisi awal
             this.transform.localPosition = new Vector3(resetPosition.x, resetPosition.y, resetPosition.z);
+
+            GameObject setAudio = GameObject.Find("SetAudio");
+            AudioJawaban other = (AudioJawaban)setAudio.GetComponent(typeof(AudioJawaban));
+            other.wrongAudio();
+
+            GameObject poinS = GameObject.Find("PoinFixed");
+            PoinFixed playerPoin = poinS.GetComponent<PoinFixed>();
+            playerPoin.poinz -= 20;
+
         }
     }
 

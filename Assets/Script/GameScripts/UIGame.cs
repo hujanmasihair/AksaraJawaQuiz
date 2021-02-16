@@ -16,6 +16,16 @@ public class UIGame : MonoBehaviour         // Script pada Control UI saat berma
     //int nextSceneIndex = SceneManager.GetActiveScene().buildIndex + 1;
 
     // Start is called before the first frame update
+
+    private void Awake()
+    {
+        GameObject poinS = GameObject.Find("PoinFixed");
+        PoinFixed playerPoin = poinS.GetComponent<PoinFixed>();
+        playerPoin.poinz += 0;
+
+        poinNow = playerPoin.poinz;
+    }
+
     void Start()
     {
         panelPepak.gameObject.SetActive(false);
@@ -33,6 +43,9 @@ public class UIGame : MonoBehaviour         // Script pada Control UI saat berma
 
     public void toExit()
     {
+        GameObject poinS = GameObject.Find("PoinFixed");
+        PoinFixed playerPoin = poinS.GetComponent<PoinFixed>();
+        playerPoin.poinz = 300;
         SceneManager.LoadScene("MainMenu", LoadSceneMode.Single);
     }
 
@@ -51,9 +64,9 @@ public class UIGame : MonoBehaviour         // Script pada Control UI saat berma
         Time.timeScale = 0;
         Debug.Log("toPepak");
 
-        GameObject poinS = GameObject.Find("PoinSekarang");
-        PointSystem playerPoin = poinS.GetComponent<PointSystem>();
-        playerPoin.poinz -= 20;
+        GameObject poinS = GameObject.Find("PoinFixed");
+        PoinFixed playerPoin = poinS.GetComponent<PoinFixed>();
+        playerPoin.poinz -= 10;
 
         if (playerPoin.poinz <= 0)
         {
@@ -78,11 +91,11 @@ public class UIGame : MonoBehaviour         // Script pada Control UI saat berma
 
     public void Restart()
     {
-        Application.LoadLevel(Application.loadedLevel);
-    }
+        //kembali ke Level 1
+        GameObject poinS = GameObject.Find("PoinFixed");
+        PoinFixed playerPoin = poinS.GetComponent<PoinFixed>();
+        playerPoin.poinz = 300;
 
-    public void Lanjut()
-    {
-        //SceneManager.LoadScene(nextSceneIndex);
+        Application.LoadLevel("NewStage1Kelas");
     }
 }

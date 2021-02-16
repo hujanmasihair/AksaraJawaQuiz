@@ -708,6 +708,51 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &239335716
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 239335718}
+  - component: {fileID: 239335717}
+  m_Layer: 0
+  m_Name: PoinFixed
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &239335717
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 239335716}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4286b29fa81abd349877b949584774a0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  poinz: 300
+  ID: 
+--- !u!4 &239335718
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 239335716}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 45.650124, y: 376.9207, z: -46.834343}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &303078499
 GameObject:
   m_ObjectHideFlags: 0
@@ -1403,7 +1448,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 262.28577}
+  m_AnchoredPosition: {x: 0, y: -0.000030238181}
   m_SizeDelta: {x: 0, y: 855.4641}
   m_Pivot: {x: 0, y: 1}
 --- !u!1 &732597145
@@ -2427,6 +2472,100 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 929345838}
   m_CullTransparentMesh: 0
+--- !u!1 &1029702973
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1029702977}
+  - component: {fileID: 1029702976}
+  - component: {fileID: 1029702975}
+  - component: {fileID: 1029702974}
+  m_Layer: 5
+  m_Name: Poin
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1029702974
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1029702973}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26e081d69b4f01f4db874a62b9a30485, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scoreAkhir: 0
+  jmlPoin: {fileID: 1029702975}
+  poinSt: {fileID: 1029702975}
+--- !u!114 &1029702975
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1029702973}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 12800000, guid: b18287a465371e54c882c456055a8ee2, type: 3}
+    m_FontSize: 62
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 10
+    m_MaxSize: 105
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: 0
+--- !u!222 &1029702976
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1029702973}
+  m_CullTransparentMesh: 0
+--- !u!224 &1029702977
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1029702973}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.51593, y: 0.51593, z: 0.73705}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 401.39038, y: 196.7889}
+  m_SizeDelta: {x: 265.22446, y: 70.304855}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1046495350
 GameObject:
   m_ObjectHideFlags: 0
@@ -2692,7 +2831,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 3.2999878, y: -455.9}
+  m_AnchoredPosition: {x: 12, y: -427.73}
   m_SizeDelta: {x: 702.84705, y: 806.4369}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1150496595
@@ -2727,29 +2866,29 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: '1. Pemain dapat memulai permainan point 300 di awal permainan
+  m_Text: '1. Pemain dapat memulai permainan dengan memilih tombol MULAI dengan skor
+    300
 
 
-    2.
-    Pemain dapat memilih beberapa tombol Pepak untuk belajar sebelum memulai permainan
+    2. Pemain dapat memilih tombol (PEPAK) untuk dapat belajar sebelum
+    memulai permainan
 
 
-    3.
-    Permainan akan dimulai ketika pemain memilih tombol MULAI pada halaman Main Menu
+    3. Pemain harus mengartikan petunjuk (quest) untuk dapat
+    memainkan permainan dan lanjut ke (quest) selanjutnya
 
 
-    4.
-    Pemain harus mengartikan petunjuk (quest) untuk dapat memainkan permainan dan
-    lanjut ke (quest) selanjutnya
+    4. Pemain dapat membuka
+    tombol (PEPAK) pada halaman permainan apabila kesulitan menebak (quest), namun
+    skor berkurang 10
 
 
-    5. Pemain dapat membuka tombol Pepak pada
-    halaman permainan apabila kesulitan kesulitan mengartikan (quest), namun akan
-    berkurang 20 point
+    5. Pemain akan kehilangan skor 20 apabila tidak melakukan
+    perintah atau salah menebak (quest)
 
 
-    6. Permainan akan selesai setelah semua quest dan level
-    sudah dimainkan oleh pemain'
+    6. Permainan akan selesai jika skor
+    pemain habis atau pemain telah menyelesaikan semua tingkatan level permainan'
 --- !u!222 &1150496596
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3160,8 +3299,8 @@ RectTransform:
   m_Father: {fileID: 1344514820}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0.29107714}
-  m_AnchorMax: {x: 1, y: 0.6933994}
+  m_AnchorMin: {x: 0, y: 0.59770596}
+  m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 20, y: 20}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -3932,8 +4071,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1420339420}
   m_HandleRect: {fileID: 1420339419}
   m_Direction: 2
-  m_Value: 0.48701355
-  m_Size: 0.40232232
+  m_Value: 1.0000001
+  m_Size: 0.40229404
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:

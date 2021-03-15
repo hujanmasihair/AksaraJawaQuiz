@@ -19,11 +19,7 @@ public class UIGame : MonoBehaviour         // Script pada Control UI saat berma
 
     private void Awake()
     {
-        GameObject poinS = GameObject.Find("PoinFixed");
-        PoinFixed playerPoin = poinS.GetComponent<PoinFixed>();
-        playerPoin.poinz += 0;
 
-        poinNow = playerPoin.poinz;
     }
 
     void Start()
@@ -31,6 +27,12 @@ public class UIGame : MonoBehaviour         // Script pada Control UI saat berma
         panelPepak.gameObject.SetActive(false);
         panelExit.gameObject.SetActive(false);
         panelKalah.gameObject.SetActive(false);
+
+        GameObject poinS = GameObject.Find("PoinFixed");
+        PoinFixed playerPoin = poinS.GetComponent<PoinFixed>();
+        playerPoin.poinz += 0;
+
+        poinNow = playerPoin.poinz;
     }
 
     public void toResume()
@@ -46,6 +48,11 @@ public class UIGame : MonoBehaviour         // Script pada Control UI saat berma
         GameObject poinS = GameObject.Find("PoinFixed");
         PoinFixed playerPoin = poinS.GetComponent<PoinFixed>();
         playerPoin.poinz = 300;
+
+        //poinNow = playerPoin.poinz;
+        Time.timeScale = 1;
+
+
         SceneManager.LoadScene("MainMenu", LoadSceneMode.Single);
     }
 
@@ -95,6 +102,17 @@ public class UIGame : MonoBehaviour         // Script pada Control UI saat berma
         GameObject poinS = GameObject.Find("PoinFixed");
         PoinFixed playerPoin = poinS.GetComponent<PoinFixed>();
         playerPoin.poinz = 300;
+        poinNow = playerPoin.poinz;
+
+
+
+        GameObject poinSk = GameObject.Find("PoinSekarang");
+        PointSystem playerPoink = poinS.GetComponent<PointSystem>();
+        //playerPoink.poinz = 300;
+
+
+
+        playerPoin.poinz = playerPoink.poinz;
 
         Application.LoadLevel("NewStage1Kelas");
     }
